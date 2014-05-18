@@ -30,5 +30,5 @@ Console.WriteLine(msg);
 This is a work in progress. The Edge library is very new and we have not tested it heavily with scriptcs. There are no known issues at this time, but this may change. 
 
 # Acknowledgments
-Thanks to Tomasz Janczuk (@tjanczuk) for creating edge, and for his advice in the design of this script pack, as well as unblocking issues that were affecting this implementation.
+Thanks to [Tomasz Janczuk] (https://github.com/tjanczuk) for the awesomeness of edge, and for his advice in the design of this script pack, as well as unblocking issues that were affecting this implementation.
 
