@@ -3,7 +3,9 @@ scriptcs-edge
 
 # What is it?
 
-Execute node.js scripts from scriptcs with the power of edge. Script on script!
+Execute node.js scripts from scriptcs with the power of [edge] (https://github.com/tjanczuk/edge). Script on script!
+
+Edge allows invoking node.js applications from within .NET! scriptcs-edge makes it easy to consume edge within your scriptcs scripts.
 
 # Install
 ```
@@ -23,5 +25,8 @@ var func = Edge.Func(
 var msg = (string) func(".NET").Result;
 Console.WriteLine(msg);
 ```
+
+# Notes
+This is a work in progress. The Edge library is very new and we have not tested it heavily with scriptcs. There are no known issues at this time, but this may change. 
 
 
