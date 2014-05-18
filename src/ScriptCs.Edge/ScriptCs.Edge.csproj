@@ -51,15 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="edge\x64\edge.node" />
-    <None Include="edge\x86\edge.node" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="edge\double_edge.js" />
-    <Content Include="edge\edge.js" />
-    <Content Include="edge\x64\node.dll" />
-    <Content Include="edge\x86\node.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
