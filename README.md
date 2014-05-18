@@ -17,9 +17,10 @@ scriptcs -install ScriptCs.Edge
 
 # Sample Usage
 ```csharp
-var edge = Require<EdgePack>();
+Require<EdgePack>();
 
-var func = Edge.Func(
+//Edge.Func is static so no need to use the return value.
+Edge.Func(
 	@"return function(data, callback) {
 		callback(null, 'Node js ' + process.version + ' welcomes ' + data);
 	}"
