@@ -7,6 +7,9 @@ Execute node.js scripts from scriptcs with the power of [edge] (https://github.c
 
 Edge allows invoking node.js applications from within .NET! scriptcs-edge makes it easy to consume edge within your scriptcs scripts.
 
+# Platform requirements
+Currently only Windows is supported as the edge nuget package only works on Windows.
+
 # Install
 ```
 scriptcs -install ScriptCs.Edge
